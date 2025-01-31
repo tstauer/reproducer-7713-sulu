@@ -8,6 +8,7 @@ framework:
     # Remove or comment this section to explicitly disable session support.
     session:
         name: SULUSESSID # This avoids conflicts with other applications running on the same domain
+        save_path: '/var/www/html/var/sessions/'
 
     #esi: true
     #fragments: true
