@@ -33,6 +33,7 @@
         "doctrine/doctrine-bundle": "^2.13",
         "doctrine/doctrine-fixtures-bundle": "^3.6",
         "friendsofsymfony/http-cache-bundle": "^3.0",
+        "handcraftedinthealps/elasticsearch-bundle": "*",
         "handcraftedinthealps/zendsearch": "^2.1",
         "jackalope/jackalope-doctrine-dbal": "^1.10 || ^2.0",
         "phpcr/phpcr-migrations-bundle": "^1.6",
@@ -40,6 +41,7 @@
         "scheb/2fa-bundle": "^7.2",
         "scheb/2fa-email": "^7.2",
         "scheb/2fa-trusted-device": "^7.2",
+        "sentry/sentry-symfony": "^5.0.0",
         "stof/doctrine-extensions-bundle": "^1.11",
         "sulu/sulu": "~2.6.6",
         "symfony/config": "^7.1",
@@ -203,7 +205,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": true,
-            "require": "7.1.*"
+            "require": "7.4.*"
         }
     }
 }

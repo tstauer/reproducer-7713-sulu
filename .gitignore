@@ -29,7 +29,6 @@
 
 # composer
 /composer.phar
-composer.lock
 
 # npm
 package-lock.json
